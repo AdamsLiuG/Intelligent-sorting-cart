@@ -1,0 +1,32 @@
+[
+ {
+  "path": "/packages/iot/iot_cloud/ali-iotkit", 
+  "ver": "v3.0.1", 
+  "name": "ALI_IOTKIT"
+ }, 
+ {
+  "path": "/packages/iot/ota_downloader", 
+  "ver": "latest", 
+  "name": "OTA_DOWNLOADER"
+ }, 
+ {
+  "path": "/packages/language/JSON/cJSON", 
+  "ver": "latest", 
+  "name": "CJSON"
+ }, 
+ {
+  "path": "/packages/tools/EasyFlash", 
+  "ver": "v4.1.0", 
+  "name": "EASYFLASH"
+ }, 
+ {
+  "path": "/packages/tools/EasyLogger", 
+  "ver": "v2.0.0", 
+  "name": "EASYLOGGER"
+ }, 
+ {
+  "path": "/packages/system/fal", 
+  "ver": "v1.0.0", 
+  "name": "FAL"
+ }
+]
