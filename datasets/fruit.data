@@ -1,0 +1,5 @@
+classes= 1
+train  = F:/dataset/train.txt
+valid  = F:/dataset/test.txt
+names = F:/dataset/fruit.names
+backup = C:/Yolo-Fastest-master/build/darknet/x64/backup4/

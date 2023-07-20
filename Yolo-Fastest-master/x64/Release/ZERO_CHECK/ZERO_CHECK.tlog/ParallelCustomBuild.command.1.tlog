@@ -1,0 +1,10 @@
+^C:\YOLO-FASTEST-MASTER\CMAKEFILES\2EB0BB101D47923DF40D143A963593E4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Yolo-Fastest-master -BC:/Yolo-Fastest-master --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Yolo-Fastest-master/Darknet.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

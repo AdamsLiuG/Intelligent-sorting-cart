@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Yolo-Fastest-master\CMakeFiles\2eb0bb101d47923df40d143a963593e4\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Yolo-Fastest-master\DarknetConfig.cmake.in">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="C:\Yolo-Fastest-master\cmake\Modules\FindCUDNN.cmake">
+      <Filter>Buildsystem Input Files\cmake\Modules</Filter>
+    </None>
+    <None Include="C:\Yolo-Fastest-master\cmake\Modules\FindPThreads_windows.cmake">
+      <Filter>Buildsystem Input Files\cmake\Modules</Filter>
+    </None>
+    <None Include="C:\Yolo-Fastest-master\cmake\Modules\FindStb.cmake">
+      <Filter>Buildsystem Input Files\cmake\Modules</Filter>
+    </None>
+    <None Include="C:\Yolo-Fastest-master\src\version.h.in">
+      <Filter>Buildsystem Input Files\src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{110948B5-F614-3AA7-B250-C6D2DCD70916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5BF2E4F4-A663-32D0-BFE3-B73DFAD55F20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files">
+      <UniqueIdentifier>{5FAEB82D-B97D-3187-B08C-9CC7EEB682CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\cmake\Modules">
+      <UniqueIdentifier>{F192BB71-9A68-3972-B647-2A8264F22004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\src">
+      <UniqueIdentifier>{03AA4439-34DB-301A-9641-B835D6046400}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+<annotation>
+  <folder>VOC2007</folder>
+  <filename>mix_29.jpg</filename>
+  <size>
+    <width>134</width>
+    <height>124</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>pitaya</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>39.19912233257378</xmin>
+      <ymin>27.14788781117021</ymin>
+      <xmax>126.19912233257378</xmax>
+      <ymax>97.14788781117021</ymax>
+    </bndbox>
+  </object>
+</annotation>

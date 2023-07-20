@@ -1,0 +1,92 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(x64\Release\)包含从另一个项目(ALL_BUILD.vcxproj, darknet.vcxproj, INSTALL.vcxproj, uselib.vcxproj, uselib_track.vcxproj, ZERO_CHECK.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  Building Custom Rule C:/Yolo-Fastest-master/CMakeLists.txt
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27050 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"C:\Yolo-Fastest-master\include" /I"C:\Yolo-Fastest-master\src" /I"C:\Yolo-Fastest-master\3rdparty\stb\include" /IF:\opencv\build\include /I"C:\Yolo-Fastest-master\3rdparty\pthreads\include" /W1 /WX- /diagnostics:classic /Ox /Ob2 /D _WINDLL /D _MBCS /D WIN32 /D _WINDOWS /D NDEBUG /D LIB_EXPORTS=1 /D USE_CMAKE_LIBS /D TRACK_OPTFLOW=1 /D OPENCV /D _CRT_RAND_S /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS /D _TIMESPEC_DEFINED /D "CMAKE_INTDIR=\"Release\"" /D dark_EXPORTS /Gm- /EHsc /MD /GS /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"x64\Release\\" /Fd"x64\Release\vc141.pdb" /Gd /TP /wd4013 /wd4018 /wd4028 /wd4047 /wd4068 /wd4090 /wd4101 /wd4113 /wd4133 /wd4190 /wd4244 /wd4267 /wd4305 /wd4477 /wd4996 /wd4819 /errorReport:prompt "C:\Yolo-Fastest-master\src\yolo_v2_class.cpp" "C:\Yolo-Fastest-master\src\http_stream.cpp" "C:\Yolo-Fastest-master\src\image_opencv.cpp"
+  
+  yolo_v2_class.cpp
+  http_stream.cpp
+  image_opencv.cpp
+  正在生成代码...
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27050 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"C:\Yolo-Fastest-master\include" /I"C:\Yolo-Fastest-master\src" /I"C:\Yolo-Fastest-master\3rdparty\stb\include" /IF:\opencv\build\include /I"C:\Yolo-Fastest-master\3rdparty\pthreads\include" /W1 /WX- /diagnostics:classic /Ox /Ob2 /D _WINDLL /D _MBCS /D WIN32 /D _WINDOWS /D NDEBUG /D LIB_EXPORTS=1 /D USE_CMAKE_LIBS /D TRACK_OPTFLOW=1 /D OPENCV /D _CRT_RAND_S /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS /D _TIMESPEC_DEFINED /D "CMAKE_INTDIR=\"Release\"" /D dark_EXPORTS /Gm- /EHsc /MD /GS /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"x64\Release\\" /Fd"x64\Release\vc141.pdb" /Gd /TC /wd4013 /wd4018 /wd4028 /wd4047 /wd4068 /wd4090 /wd4101 /wd4113 /wd4133 /wd4190 /wd4244 /wd4267 /wd4305 /wd4477 /wd4996 /wd4819 /errorReport:prompt "C:\Yolo-Fastest-master\src\activation_layer.c" "C:\Yolo-Fastest-master\src\activations.c" "C:\Yolo-Fastest-master\src\art.c" "C:\Yolo-Fastest-master\src\avgpool_layer.c" "C:\Yolo-Fastest-master\src\batchnorm_layer.c" "C:\Yolo-Fastest-master\src\blas.c" "C:\Yolo-Fastest-master\src\box.c" "C:\Yolo-Fastest-master\src\captcha.c" "C:\Yolo-Fastest-master\src\cifar.c" "C:\Yolo-Fastest-master\src\classifier.c" "C:\Yolo-Fastest-master\src\coco.c" "C:\Yolo-Fastest-master\src\col2im.c" "C:\Yolo-Fastest-master\src\compare.c" "C:\Yolo-Fastest-master\src\connected_layer.c" "C:\Yolo-Fastest-master\src\conv_lstm_layer.c" "C:\Yolo-Fastest-master\src\convolutional_layer.c" "C:\Yolo-Fastest-master\src\cost_layer.c" "C:\Yolo-Fastest-master\src\cpu_gemm.c" "C:\Yolo-Fastest-master\src\crnn_layer.c" "C:\Yolo-Fastest-master\src\crop_layer.c" "C:\Yolo-Fastest-master\src\dark_cuda.c" "C:\Yolo-Fastest-master\src\data.c" "C:\Yolo-Fastest-master\src\deconvolutional_layer.c" "C:\Yolo-Fastest-master\src\demo.c" "C:\Yolo-Fastest-master\src\detection_layer.c" "C:\Yolo-Fastest-master\src\detector.c" "C:\Yolo-Fastest-master\src\dice.c" "C:\Yolo-Fastest-master\src\dropout_layer.c" "C:\Yolo-Fastest-master\src\gaussian_yolo_layer.c" "C:\Yolo-Fastest-master\src\gemm.c" "C:\Yolo-Fastest-master\src\getopt.c" "C:\Yolo-Fastest-master\src\gettimeofday.c" "C:\Yolo-Fastest-master\src\go.c" "C:\Yolo-Fastest-master\src\gru_layer.c" "C:\Yolo-Fastest-master\src\im2col.c" "C:\Yolo-Fastest-master\src\image.c" "C:\Yolo-Fastest-master\src\layer.c" "C:\Yolo-Fastest-master\src\list.c" "C:\Yolo-Fastest-master\src\local_layer.c" "C:\Yolo-Fastest-master\src\lstm_layer.c" "C:\Yolo-Fastest-master\src\matrix.c" "C:\Yolo-Fastest-master\src\maxpool_layer.c" "C:\Yolo-Fastest-master\src\network.c" "C:\Yolo-Fastest-master\src\nightmare.c" "C:\Yolo-Fastest-master\src\normalization_layer.c" "C:\Yolo-Fastest-master\src\option_list.c" "C:\Yolo-Fastest-master\src\parser.c" "C:\Yolo-Fastest-master\src\region_layer.c" "C:\Yolo-Fastest-master\src\reorg_layer.c" "C:\Yolo-Fastest-master\src\reorg_old_layer.c" "C:\Yolo-Fastest-master\src\rnn.c" "C:\Yolo-Fastest-master\src\rnn_layer.c" "C:\Yolo-Fastest-master\src\rnn_vid.c" "C:\Yolo-Fastest-master\src\route_layer.c" "C:\Yolo-Fastest-master\src\sam_layer.c" "C:\Yolo-Fastest-master\src\scale_channels_layer.c" "C:\Yolo-Fastest-master\src\shortcut_layer.c" "C:\Yolo-Fastest-master\src\softmax_layer.c" "C:\Yolo-Fastest-master\src\super.c" "C:\Yolo-Fastest-master\src\swag.c" "C:\Yolo-Fastest-master\src\tag.c" "C:\Yolo-Fastest-master\src\tree.c" "C:\Yolo-Fastest-master\src\upsample_layer.c" "C:\Yolo-Fastest-master\src\utils.c" "C:\Yolo-Fastest-master\src\voxel.c" "C:\Yolo-Fastest-master\src\writing.c" "C:\Yolo-Fastest-master\src\yolo.c" "C:\Yolo-Fastest-master\src\yolo_layer.c"
+  
+  activation_layer.c
+  activations.c
+  art.c
+  avgpool_layer.c
+  batchnorm_layer.c
+  blas.c
+  box.c
+  captcha.c
+  cifar.c
+  classifier.c
+  coco.c
+  col2im.c
+  compare.c
+  connected_layer.c
+  conv_lstm_layer.c
+  convolutional_layer.c
+  cost_layer.c
+  cpu_gemm.c
+  crnn_layer.c
+  crop_layer.c
+  正在生成代码...
+  正在编译...
+  dark_cuda.c
+  data.c
+  deconvolutional_layer.c
+  demo.c
+  detection_layer.c
+  detector.c
+  dice.c
+  dropout_layer.c
+  gaussian_yolo_layer.c
+  gemm.c
+  getopt.c
+  gettimeofday.c
+  go.c
+  gru_layer.c
+  im2col.c
+  image.c
+  layer.c
+  list.c
+  local_layer.c
+  lstm_layer.c
+  正在生成代码...
+  正在编译...
+  matrix.c
+  maxpool_layer.c
+  network.c
+  nightmare.c
+  normalization_layer.c
+  option_list.c
+  parser.c
+  region_layer.c
+  reorg_layer.c
+  reorg_old_layer.c
+  rnn.c
+  rnn_layer.c
+  rnn_vid.c
+  route_layer.c
+  sam_layer.c
+  scale_channels_layer.c
+  shortcut_layer.c
+  softmax_layer.c
+  super.c
+  swag.c
+  正在生成代码...
+  正在编译...
+  tag.c
+  tree.c
+  upsample_layer.c
+  utils.c
+  voxel.c
+  writing.c
+  yolo.c
+  yolo_layer.c
+  正在生成代码...
+x64\Release\yolo_v2_class.obj : fatal error LNK1112: 模块计算机类型“x64”与目标计算机类型“x86”冲突

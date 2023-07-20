@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images_ori3</folder>
+	<filename>mix2_8.jpg</filename>
+	<path>F:\dataset\images_ori3\mix2_8.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>160</width>
+		<height>160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pitaya</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>10</xmin>
+			<ymin>8</ymin>
+			<xmax>124</xmax>
+			<ymax>92</ymax>
+		</bndbox>
+	</object>
+</annotation>

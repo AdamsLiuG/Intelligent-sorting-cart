@@ -1,0 +1,10 @@
+C:/Yolo-Fastest-master/darknet.lib
+C:/Yolo-Fastest-master/darknet.dll
+C:/Yolo-Fastest-master/include/darknet/darknet.h
+C:/Yolo-Fastest-master/include/darknet/yolo_v2_class.hpp
+C:/Yolo-Fastest-master/uselib.exe
+C:/Yolo-Fastest-master/darknet.exe
+C:/Yolo-Fastest-master/share/darknet/DarknetTargets.cmake
+C:/Yolo-Fastest-master/share/darknet/DarknetTargets-release.cmake
+C:/Yolo-Fastest-master/share/darknet/DarknetConfig.cmake
+C:/Yolo-Fastest-master/share/darknet/DarknetConfigVersion.cmake

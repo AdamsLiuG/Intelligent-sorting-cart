@@ -1,0 +1,19 @@
+<annotation>
+  <folder>VOC2007</folder>
+  <filename>mix3_17.jpg</filename>
+  <size>
+    <width>160</width>
+    <height>160</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>apple</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>11.102452521997991</xmin>
+      <ymin>1.8600356163037768</ymin>
+      <xmax>119.10245252199799</xmax>
+      <ymax>155.86003561630378</ymax>
+    </bndbox>
+  </object>
+</annotation>

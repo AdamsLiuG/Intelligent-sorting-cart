@@ -1,0 +1,5 @@
+classes= 2
+train  = C:/Yolo-Fastest-master/build/darknet/x64/data/config2/train.txt
+valid  = C:/Yolo-Fastest-master/build/darknet/x64/data/config2/test.txt
+names = C:/Yolo-Fastest-master/build/darknet/x64/data/fruit.names
+backup = C:/Yolo-Fastest-master/build/darknet/x64/backup3/

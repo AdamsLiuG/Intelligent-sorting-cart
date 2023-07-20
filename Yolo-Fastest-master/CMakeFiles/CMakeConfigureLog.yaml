@@ -1,0 +1,959 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:55 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:55 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2023/7/8 15:18:27。
+      节点 1 上的项目“C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdC\\.\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.60
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Yolo-Fastest-master/CMakeFiles/3.27.0-rc4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:55 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2023/7/8 15:18:28。
+      节点 1 上的项目“C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCXX\\.\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.44
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Yolo-Fastest-master/CMakeFiles/3.27.0-rc4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:55 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-05k4kt"
+      binary: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-05k4kt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-05k4kt'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_e3047.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/7/8 15:18:29。
+        节点 1 上的项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-05k4kt\\cmTC_e3047.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e3047.dir\\Debug\\”。
+          正在创建目录“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-05k4kt\\Debug\\”。
+          正在创建目录“cmTC_e3047.dir\\Debug\\cmTC_e3047.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e3047.dir\\Debug\\cmTC_e3047.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e3047.dir\\Debug\\\\" /Fd"cmTC_e3047.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27050 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e3047.dir\\Debug\\\\" /Fd"cmTC_e3047.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-05k4kt\\Debug\\cmTC_e3047.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-05k4kt/Debug/cmTC_e3047.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-05k4kt/Debug/cmTC_e3047.lib" /MACHINE:X64  /machine:x64 cmTC_e3047.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_e3047.vcxproj -> C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-05k4kt\\Debug\\cmTC_e3047.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_e3047.dir\\Debug\\cmTC_e3047.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_e3047.dir\\Debug\\cmTC_e3047.tlog\\cmTC_e3047.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-05k4kt\\cmTC_e3047.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.79
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:55 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-dydlfv"
+      binary: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-dydlfv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-dydlfv'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_78a2e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/7/8 15:18:30。
+        节点 1 上的项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-dydlfv\\cmTC_78a2e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_78a2e.dir\\Debug\\”。
+          正在创建目录“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-dydlfv\\Debug\\”。
+          正在创建目录“cmTC_78a2e.dir\\Debug\\cmTC_78a2e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_78a2e.dir\\Debug\\cmTC_78a2e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_78a2e.dir\\Debug\\\\" /Fd"cmTC_78a2e.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27050 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_78a2e.dir\\Debug\\\\" /Fd"cmTC_78a2e.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-dydlfv\\Debug\\cmTC_78a2e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-dydlfv/Debug/cmTC_78a2e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-dydlfv/Debug/cmTC_78a2e.lib" /MACHINE:X64  /machine:x64 cmTC_78a2e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_78a2e.vcxproj -> C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-dydlfv\\Debug\\cmTC_78a2e.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_78a2e.dir\\Debug\\cmTC_78a2e.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_78a2e.dir\\Debug\\cmTC_78a2e.tlog\\cmTC_78a2e.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-dydlfv\\cmTC_78a2e.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.55
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLanguage.cmake:93 (message)"
+      - "CMakeLists.txt:90 (check_language)"
+    checks:
+      - "Looking for a CUDA compiler"
+    message: |
+      Looking for a CUDA compiler passed with the following output:
+      -- The CUDA compiler identification is NVIDIA 12.2.91
+      -- Detecting CUDA compiler ABI info
+      -- Detecting CUDA compiler ABI info - done
+      -- Check for working CUDA compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/nvcc.exe - skipped
+      -- Detecting CUDA compile features
+      -- Detecting CUDA compile features - done
+      -- Configuring done (7.4s)
+      -- Generating done (0.0s)
+      -- Build files have been written to: C:/Yolo-Fastest-master/CMakeFiles/CheckCUDA
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:307 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:94 (enable_language)"
+    message: |
+      Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+      Compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/nvcc.exe 
+      Build flags: 
+      Id flags: --keep;--keep-dir;tmp -v
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2023/7/8 15:18:38。
+      节点 1 上的项目“C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCUDA.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      AddCudaCompileDeps:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=2 /D_MBCS /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" /I. /FIcuda_runtime.h /c C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\CMakeCUDACompilerId.cu 
+      项目“C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(1)正在节点 1 上生成“C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(1:2) (CudaBuildCore 个目标)。
+      CudaBuildCore:
+        Compiling CUDA source file CMakeCUDACompilerId.cu...
+        正在创建目录“C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\x64\\Debug”。
+        cmd.exe /C "C:\\Users\\99492\\AppData\\Local\\Temp\\tmpa4fa62dc62bf47e9a7b69515dcd5edf2.cmd"
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdDebug\\vc141.pdb" -o C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"
+        
+        C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdDebug\\vc141.pdb" -o C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" 
+        #$ _NVVM_BRANCH_=nvvm
+        #$ _SPACE_= 
+        #$ _CUDART_=cudart
+        #$ _HERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin
+        #$ _THERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin
+        #$ _TARGET_SIZE_=
+        #$ _TARGET_DIR_=
+        #$ _TARGET_SIZE_=64
+        #$ _WIN_PLATFORM_=x64
+        #$ TOP=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/..
+        #$ NVVMIR_LIBRARY_DIR=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../nvvm/libdevice
+        #$ PATH=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../nvvm/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../lib;C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x86;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\Common7\\tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\MSBuild\\15.0\\Bin;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\;;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp;;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Bandizip\\;C:\\Users\\99492\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;F:\\CMake\\bin;F:\\opencv\\build\\x64\\vc16\\lib;F:\\opencv\\build\\x64\\vc16\\bin;F:\\opencv\\build;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Yolo-Fastest-master\\build\\darknet\\x64;C:\\Program Files\\CMake\\bin;F:\\Anaconda;F:\\Anaconda\\Library\\mingw-w64\\bin;F:\\Anaconda\\Library\\usr\\bin;F:\\Anaconda\\Library\\bin;F:\\Anaconda\\Scripts;C:\\Users\\99492\\AppData\\Local\\Microsoft\\WindowsApps;F:\\Microsoft VS Code\\bin;
+        #$ INCLUDES="-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../include"  
+        #$ LIBRARIES=  "/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../lib/x64"
+        #$ CUDAFE_FLAGS=--sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"
+        #$ PTXAS_FLAGS=
+        CMakeCUDACompilerId.cu
+        #$ resource file C:\\Users\\99492\\AppData\\Local\\Temp/tmpxft_00001774_00000000-8.res: [-D__CUDA_ARCH_LIST__=520 -nologo -E -TP -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc141.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=2 -D__CUDACC_VER_BUILD__=91 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=2 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        #$ cl.exe @"C:\\Users\\99492\\AppData\\Local\\Temp/tmpxft_00001774_00000000-8.res" > "C:/Users/99492/AppData/Local/Temp/tmpxft_00001774_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\99492\\AppData\\Local\\Temp/tmpxft_00001774_00000000-8.res
+        #$ cudafe++ --microsoft_version=1916 --msvc_target_version=1916 --compiler_bindir "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX86/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Yolo-Fastest-master/CMakeFiles/3.27.0-rc4/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10" --m64 --parse_templates --gen_c_file_name "C:/Users/99492/AppData/Local/Temp/tmpxft_00001774_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_00001774_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_module_id_file --module_id_file_name "C:/Users/99492/AppData/Local/Temp/tmpxft_00001774_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/99492/AppData/Local/Temp/tmpxft_00001774_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        #$ resource file C:\\Users\\99492\\AppData\\Local\\Temp/tmpxft_00001774_00000000-10.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -nologo -E -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc141.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=2 -D__CUDACC_VER_BUILD__=91 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=2 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        #$ cl.exe @"C:\\Users\\99492\\AppData\\Local\\Temp/tmpxft_00001774_00000000-10.res" > "C:/Users/99492/AppData/Local/Temp/tmpxft_00001774_00000000-9_CMakeCUDACompilerId.cpp1.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\99492\\AppData\\Local\\Temp/tmpxft_00001774_00000000-10.res
+        #$ cicc --microsoft_version=1916 --msvc_target_version=1916 --compiler_bindir "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX86/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Yolo-Fastest-master/CMakeFiles/3.27.0-rc4/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_00001774_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused --module_id_file_name "C:/Users/99492/AppData/Local/Temp/tmpxft_00001774_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/99492/AppData/Local/Temp/tmpxft_00001774_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/99492/AppData/Local/Temp/tmpxft_00001774_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/99492/AppData/Local/Temp/tmpxft_00001774_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/99492/AppData/Local/Temp/tmpxft_00001774_00000000-9_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/99492/AppData/Local/Temp/tmpxft_00001774_00000000-7_CMakeCUDACompilerId.ptx"
+        #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/99492/AppData/Local/Temp/tmpxft_00001774_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/99492/AppData/Local/Temp/tmpxft_00001774_00000000-11_CMakeCUDACompilerId.sm_52.cubin" 
+        #$ fatbinary -64 --ident="C:/Yolo-Fastest-master/CMakeFiles/3.27.0-rc4/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/99492/AppData/Local/Temp/tmpxft_00001774_00000000-11_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/99492/AppData/Local/Temp/tmpxft_00001774_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/99492/AppData/Local/Temp/tmpxft_00001774_00000000-4_CMakeCUDACompilerId.fatbin.c" 
+        #$ erase C:/Users/99492/AppData/Local/Temp/tmpxft_00001774_00000000-4_CMakeCUDACompilerId.fatbin
+        #$ resource file C:\\Users\\99492\\AppData\\Local\\Temp/tmpxft_00001774_00000000-12.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -nologo -c -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc141.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../include"   -Zi "C:\\Users\\99492\\AppData\\Local\\Temp\\tmpxft_00001774_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" ]
+        #$ cl.exe @"C:\\Users\\99492\\AppData\\Local\\Temp/tmpxft_00001774_00000000-12.res" -Fo"C:/Yolo-Fastest-master/CMakeFiles/3.27.0-rc4/CompilerIdCUDA/x64/Debug/CMakeCUDACompilerId.cu.obj" 
+        tmpxft_00001774_00000000-7_CMakeCUDACompilerId.cudafe1.cpp
+        #$ erase C:\\Users\\99492\\AppData\\Local\\Temp/tmpxft_00001774_00000000-12.res
+      已完成生成项目“C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(CudaBuildCore 个目标)的操作。
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 "C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj"
+          正在创建库 .\\CompilerIdCUDA.lib 和对象 .\\CompilerIdCUDA.exp
+      LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library [C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]
+        CompilerIdCUDA.vcxproj -> C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\.\\CompilerIdCUDA.exe
+      PostBuildEvent:
+        echo CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe
+        :VCEnd
+        CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+      
+      “C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(默认目标) (1) ->
+      (Link 目标) -> 
+        LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library [C:\\Yolo-Fastest-master\\CMakeFiles\\3.27.0-rc4\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]
+      
+          1 个警告
+          0 个错误
+      
+      已用时间 00:00:01.93
+      
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+      
+      The CUDA compiler identification is NVIDIA, found in:
+        C:/Yolo-Fastest-master/CMakeFiles/3.27.0-rc4/CompilerIdCUDA/CompilerIdCUDA.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:579 (message)"
+      - "CMakeLists.txt:94 (enable_language)"
+    message: |
+      Parsed CUDA nvcc include information:
+        found 'INCLUDES=' string: ["-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../include"  ]
+      
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:94 (enable_language)"
+    checks:
+      - "Detecting CUDA compiler ABI info"
+    directories:
+      source: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-8hs0m9"
+      binary: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-8hs0m9"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_FLAGS: "-D_WINDOWS -Xcompiler=\" /GR /EHsc\""
+      CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\" -Zi -Ob0 -Od /RTC1\""
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Static"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Yolo-Fastest-master/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_CUDA_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-8hs0m9'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_754d1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/7/8 15:18:40。
+        节点 1 上的项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_754d1.dir\\Debug\\”。
+          正在创建目录“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\Debug\\”。
+          正在创建目录“cmTC_754d1.dir\\Debug\\cmTC_754d1.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_754d1.dir\\Debug\\cmTC_754d1.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        AddCudaCompileDeps:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=2 /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" 
+        项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj”(1)正在节点 1 上生成“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj”(1:2) (CudaBuildCore 个目标)。
+        CudaBuildCore:
+          Compiling CUDA source file ..\\..\\..\\..\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu...
+          cmd.exe /C "C:\\Users\\99492\\AppData\\Local\\Temp\\tmp9a152f83cdad4379a77b8deec77c5a56.cmd"
+          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_754d1.dir\\Debug\\vc141.pdb" -o cmTC_754d1.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu"
+          
+          C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_754d1.dir\\Debug\\vc141.pdb" -o cmTC_754d1.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" 
+        cl : 命令行 warning D9002: 忽略未知选项“-v” [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]
+          CMakeCUDACompilerABI.cu
+        cl : 命令行 warning D9002: 忽略未知选项“-v” [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]
+          CMakeCUDACompilerABI.cu
+          CMakeCUDACompilerABI.cu
+        cl : 命令行 warning D9002: 忽略未知选项“-v” [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]
+          tmpxft_000039bc_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp
+        已完成生成项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj”(CudaBuildCore 个目标)的操作。
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\Debug\\cmTC_754d1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-8hs0m9/Debug/cmTC_754d1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-8hs0m9/Debug/cmTC_754d1.lib" /MACHINE:X64  /machine:x64 -v cmTC_754d1.dir\\Debug\\CMakeCUDACompilerABI.obj
+        LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]
+            正在创建库 C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-8hs0m9/Debug/cmTC_754d1.lib 和对象 C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-8hs0m9/Debug/cmTC_754d1.exp
+        LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]
+          cmTC_754d1.vcxproj -> C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\Debug\\cmTC_754d1.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_754d1.dir\\Debug\\cmTC_754d1.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_754d1.dir\\Debug\\cmTC_754d1.tlog\\cmTC_754d1.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj”(默认目标) (1) ->
+        “C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj”(CudaBuildCore 目标) (1:2) ->
+        (CudaBuildCore 目标) -> 
+          cl : 命令行 warning D9002: 忽略未知选项“-v” [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]
+          cl : 命令行 warning D9002: 忽略未知选项“-v” [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]
+          cl : 命令行 warning D9002: 忽略未知选项“-v” [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]
+        
+        
+        “C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]
+          LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]
+        
+            5 个警告
+            0 个错误
+        
+        已用时间 00:00:02.17
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:94 (enable_language)"
+    message: |
+      Parsed CUDA implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:94 (enable_language)"
+    message: |
+      Parsed CUDA implicit link information:
+        link line regex: [^( *|.*[/\\])(link\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-8hs0m9']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_754d1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n]
+        ignore line: [用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3]
+        ignore line: [版权所有(C) Microsoft Corporation。保留所有权利。]
+        ignore line: []
+        ignore line: [生成启动时间为 2023/7/8 15:18:40。]
+        ignore line: [节点 1 上的项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj”(默认目标)。]
+        ignore line: [PrepareForBuild:]
+        ignore line: [  正在创建目录“cmTC_754d1.dir\\Debug\\”。]
+        ignore line: [  正在创建目录“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\Debug\\”。]
+        ignore line: [  正在创建目录“cmTC_754d1.dir\\Debug\\cmTC_754d1.tlog\\”。]
+        ignore line: [InitializeBuildStatus:]
+        ignore line: [  正在创建“cmTC_754d1.dir\\Debug\\cmTC_754d1.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。]
+        ignore line: [AddCudaCompileDeps:]
+        ignore line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=2 /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj”(1)正在节点 1 上生成“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj”(1:2) (CudaBuildCore 个目标)。]
+        ignore line: [CudaBuildCore:]
+        ignore line: [  Compiling CUDA source file ..\\..\\..\\..\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu...]
+        ignore line: [  cmd.exe /C "C:\\Users\\99492\\AppData\\Local\\Temp\\tmp9a152f83cdad4379a77b8deec77c5a56.cmd"]
+        ignore line: [  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52 code=[compute_52 sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_754d1.dir\\Debug\\vc141.pdb" -o cmTC_754d1.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu"]
+        ignore line: [  ]
+        ignore line: [  C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52 code=[compute_52 sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_754d1.dir\\Debug\\vc141.pdb" -o cmTC_754d1.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]]
+        ignore line: [  tmpxft_000039bc_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp]
+        ignore line: [已完成生成项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj”(CudaBuildCore 个目标)的操作。]
+        ignore line: [Link:]
+        ignore line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\Debug\\cmTC_754d1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-8hs0m9/Debug/cmTC_754d1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-8hs0m9/Debug/cmTC_754d1.lib" /MACHINE:X64  /machine:x64 -v cmTC_754d1.dir\\Debug\\CMakeCUDACompilerABI.obj]
+        ignore line: [LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]]
+        ignore line: [    正在创建库 C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-8hs0m9/Debug/cmTC_754d1.lib 和对象 C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-8hs0m9/Debug/cmTC_754d1.exp]
+        ignore line: [LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]]
+        ignore line: [  cmTC_754d1.vcxproj -> C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\Debug\\cmTC_754d1.exe]
+        ignore line: [FinalizeBuildStatus:]
+        ignore line: [  正在删除文件“cmTC_754d1.dir\\Debug\\cmTC_754d1.tlog\\unsuccessfulbuild”。]
+        ignore line: [  正在对“cmTC_754d1.dir\\Debug\\cmTC_754d1.tlog\\cmTC_754d1.lastbuildstate”执行 Touch 任务。]
+        ignore line: [已完成生成项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj”(默认目标)的操作。]
+        ignore line: []
+        ignore line: [已成功生成。]
+        ignore line: []
+        ignore line: [“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj”(默认目标) (1) ->]
+        ignore line: [“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj”(CudaBuildCore 目标) (1:2) ->]
+        ignore line: [(CudaBuildCore 目标) -> ]
+        ignore line: [  cl : 命令行 warning D9002: 忽略未知选项“-v” [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]]
+        ignore line: [  cl : 命令行 warning D9002: 忽略未知选项“-v” [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]]
+        ignore line: [  cl : 命令行 warning D9002: 忽略未知选项“-v” [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]]
+        ignore line: []
+        ignore line: []
+        ignore line: [“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj”(默认目标) (1) ->]
+        ignore line: [(Link 目标) -> ]
+        ignore line: [  LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]]
+        ignore line: [  LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-8hs0m9\\cmTC_754d1.vcxproj]]
+        ignore line: []
+        ignore line: [    5 个警告]
+        ignore line: [    0 个错误]
+        ignore line: []
+        ignore line: [已用时间 00:00:02.17]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:132 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-i1k4rs"
+      binary: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-i1k4rs"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Shared"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Yolo-Fastest-master/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-i1k4rs'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_e08a4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/7/8 15:18:44。
+        节点 1 上的项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-i1k4rs\\cmTC_e08a4.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e08a4.dir\\Debug\\”。
+          正在创建目录“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-i1k4rs\\Debug\\”。
+          正在创建目录“cmTC_e08a4.dir\\Debug\\cmTC_e08a4.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e08a4.dir\\Debug\\cmTC_e08a4.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e08a4.dir\\Debug\\\\" /Fd"cmTC_e08a4.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-i1k4rs\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27050 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e08a4.dir\\Debug\\\\" /Fd"cmTC_e08a4.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-i1k4rs\\src.c"
+          src.c
+          
+        C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-i1k4rs\\src.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-i1k4rs\\cmTC_e08a4.vcxproj]
+        已完成生成项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-i1k4rs\\cmTC_e08a4.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-i1k4rs\\cmTC_e08a4.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-i1k4rs\\src.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-i1k4rs\\cmTC_e08a4.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.29
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:132 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-mzsm70"
+      binary: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-mzsm70"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Shared"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Yolo-Fastest-master/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-mzsm70'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_62151.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/7/8 15:18:45。
+        节点 1 上的项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-mzsm70\\cmTC_62151.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_62151.dir\\Debug\\”。
+          正在创建目录“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-mzsm70\\Debug\\”。
+          正在创建目录“cmTC_62151.dir\\Debug\\cmTC_62151.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_62151.dir\\Debug\\cmTC_62151.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_62151.dir\\Debug\\\\" /Fd"cmTC_62151.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-mzsm70\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27050 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_62151.dir\\Debug\\\\" /Fd"cmTC_62151.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-mzsm70\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-mzsm70\\Debug\\cmTC_62151.exe" /INCREMENTAL /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-mzsm70/Debug/cmTC_62151.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-mzsm70/Debug/cmTC_62151.lib" /MACHINE:X64  /machine:x64 cmTC_62151.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-mzsm70\\cmTC_62151.vcxproj]
+        已完成生成项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-mzsm70\\cmTC_62151.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-mzsm70\\cmTC_62151.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-mzsm70\\cmTC_62151.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.31
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:132 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-6b0ano"
+      binary: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-6b0ano"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Shared"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Yolo-Fastest-master/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-6b0ano'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_1146f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/7/8 15:18:45。
+        节点 1 上的项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-6b0ano\\cmTC_1146f.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_1146f.dir\\Debug\\”。
+          正在创建目录“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-6b0ano\\Debug\\”。
+          正在创建目录“cmTC_1146f.dir\\Debug\\cmTC_1146f.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_1146f.dir\\Debug\\cmTC_1146f.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1146f.dir\\Debug\\\\" /Fd"cmTC_1146f.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-6b0ano\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27050 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1146f.dir\\Debug\\\\" /Fd"cmTC_1146f.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-6b0ano\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-6b0ano\\Debug\\cmTC_1146f.exe" /INCREMENTAL /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-6b0ano/Debug/cmTC_1146f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-6b0ano/Debug/cmTC_1146f.lib" /MACHINE:X64  /machine:x64 cmTC_1146f.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-6b0ano\\cmTC_1146f.vcxproj]
+        已完成生成项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-6b0ano\\cmTC_1146f.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-6b0ano\\cmTC_1146f.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-6b0ano\\cmTC_1146f.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.32
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:171 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-556t6r"
+      binary: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-556t6r"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Shared"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Yolo-Fastest-master/cmake/Modules/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-556t6r'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_c8383.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/7/8 15:18:46。
+        节点 1 上的项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-556t6r\\cmTC_c8383.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_c8383.dir\\Debug\\”。
+          正在创建目录“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-556t6r\\Debug\\”。
+          正在创建目录“cmTC_c8383.dir\\Debug\\cmTC_c8383.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_c8383.dir\\Debug\\cmTC_c8383.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_c8383.dir\\Debug\\\\" /Fd"cmTC_c8383.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-556t6r\\OpenMPTryFlag.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27050 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_c8383.dir\\Debug\\\\" /Fd"cmTC_c8383.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-556t6r\\OpenMPTryFlag.c"
+          OpenMPTryFlag.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-556t6r\\Debug\\cmTC_c8383.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-556t6r/Debug/cmTC_c8383.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-556t6r/Debug/cmTC_c8383.lib" /MACHINE:X64  /machine:x64 cmTC_c8383.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_c8383.vcxproj -> C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-556t6r\\Debug\\cmTC_c8383.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_c8383.dir\\Debug\\cmTC_c8383.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_c8383.dir\\Debug\\cmTC_c8383.tlog\\cmTC_c8383.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-556t6r\\cmTC_c8383.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.51
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:171 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-991v6i"
+      binary: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-991v6i"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Shared"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Yolo-Fastest-master/cmake/Modules/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-991v6i'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_e5bd2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/7/8 15:18:47。
+        节点 1 上的项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-991v6i\\cmTC_e5bd2.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e5bd2.dir\\Debug\\”。
+          正在创建目录“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-991v6i\\Debug\\”。
+          正在创建目录“cmTC_e5bd2.dir\\Debug\\cmTC_e5bd2.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e5bd2.dir\\Debug\\cmTC_e5bd2.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_e5bd2.dir\\Debug\\\\" /Fd"cmTC_e5bd2.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-991v6i\\OpenMPTryFlag.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27050 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_e5bd2.dir\\Debug\\\\" /Fd"cmTC_e5bd2.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-991v6i\\OpenMPTryFlag.cpp"
+          OpenMPTryFlag.cpp
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-991v6i\\Debug\\cmTC_e5bd2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-991v6i/Debug/cmTC_e5bd2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-991v6i/Debug/cmTC_e5bd2.lib" /MACHINE:X64  /machine:x64 cmTC_e5bd2.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_e5bd2.vcxproj -> C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-991v6i\\Debug\\cmTC_e5bd2.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_e5bd2.dir\\Debug\\cmTC_e5bd2.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_e5bd2.dir\\Debug\\cmTC_e5bd2.tlog\\cmTC_e5bd2.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-991v6i\\cmTC_e5bd2.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:171 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-rf4lik"
+      binary: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-rf4lik"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Shared"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Yolo-Fastest-master/cmake/Modules/"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-rf4lik'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_e6e72.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/7/8 15:18:48。
+        节点 1 上的项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-rf4lik\\cmTC_e6e72.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e6e72.dir\\Debug\\”。
+          正在创建目录“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-rf4lik\\Debug\\”。
+          正在创建目录“cmTC_e6e72.dir\\Debug\\cmTC_e6e72.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e6e72.dir\\Debug\\cmTC_e6e72.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_e6e72.dir\\Debug\\\\" /Fd"cmTC_e6e72.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-rf4lik\\OpenMPCheckVersion.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27050 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_e6e72.dir\\Debug\\\\" /Fd"cmTC_e6e72.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-rf4lik\\OpenMPCheckVersion.c"
+          OpenMPCheckVersion.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-rf4lik\\Debug\\cmTC_e6e72.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-rf4lik/Debug/cmTC_e6e72.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-rf4lik/Debug/cmTC_e6e72.lib" /MACHINE:X64  /machine:x64 cmTC_e6e72.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_e6e72.vcxproj -> C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-rf4lik\\Debug\\cmTC_e6e72.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_e6e72.dir\\Debug\\cmTC_e6e72.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_e6e72.dir\\Debug\\cmTC_e6e72.tlog\\cmTC_e6e72.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-rf4lik\\cmTC_e6e72.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:171 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-59yw3f"
+      binary: "C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-59yw3f"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Shared"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Yolo-Fastest-master/cmake/Modules/"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-59yw3f'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_9cb60.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/7/8 15:18:48。
+        节点 1 上的项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-59yw3f\\cmTC_9cb60.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_9cb60.dir\\Debug\\”。
+          正在创建目录“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-59yw3f\\Debug\\”。
+          正在创建目录“cmTC_9cb60.dir\\Debug\\cmTC_9cb60.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_9cb60.dir\\Debug\\cmTC_9cb60.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_9cb60.dir\\Debug\\\\" /Fd"cmTC_9cb60.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-59yw3f\\OpenMPCheckVersion.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27050 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_9cb60.dir\\Debug\\\\" /Fd"cmTC_9cb60.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-59yw3f\\OpenMPCheckVersion.cpp"
+          OpenMPCheckVersion.cpp
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-59yw3f\\Debug\\cmTC_9cb60.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-59yw3f/Debug/cmTC_9cb60.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Yolo-Fastest-master/CMakeFiles/CMakeScratch/TryCompile-59yw3f/Debug/cmTC_9cb60.lib" /MACHINE:X64  /machine:x64 cmTC_9cb60.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_9cb60.vcxproj -> C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-59yw3f\\Debug\\cmTC_9cb60.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_9cb60.dir\\Debug\\cmTC_9cb60.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_9cb60.dir\\Debug\\cmTC_9cb60.tlog\\cmTC_9cb60.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Yolo-Fastest-master\\CMakeFiles\\CMakeScratch\\TryCompile-59yw3f\\cmTC_9cb60.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.58
+        
+      exitCode: 0
+...

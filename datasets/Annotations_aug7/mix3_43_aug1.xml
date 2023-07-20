@@ -1,0 +1,29 @@
+<annotation>
+  <folder>VOC2007</folder>
+  <filename>mix3_43.jpg</filename>
+  <size>
+    <width>160</width>
+    <height>160</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>apple</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>127.04549155600199</xmin>
+      <ymin>29.678272185127426</ymin>
+      <xmax>159.045491556002</xmax>
+      <ymax>159.67827218512744</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>pitaya</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>0.045491556001991285</xmin>
+      <ymin>0.6782721851274263</ymin>
+      <xmax>119.04549155600199</xmax>
+      <ymax>152.67827218512744</ymax>
+    </bndbox>
+  </object>
+</annotation>

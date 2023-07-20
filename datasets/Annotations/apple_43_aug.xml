@@ -1,0 +1,19 @@
+<annotation>
+  <folder>VOC2007</folder>
+  <filename>apple_43.jpg</filename>
+  <size>
+    <width>160</width>
+    <height>160</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>apple</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>31.7496832873935</xmin>
+      <ymin>22.281599867554487</ymin>
+      <xmax>127.7496832873935</xmax>
+      <ymax>139.2815998675545</ymax>
+    </bndbox>
+  </object>
+</annotation>

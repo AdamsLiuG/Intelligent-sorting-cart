@@ -1,0 +1,2 @@
+darknet.exe detector test C:\Yolo-Fastest-master\build\darknet\x64\data\fruit.data C:\Yolo-Fastest-master\build\darknet\x64\cfg\yolo-fastest-1.1.cfg C:\Yolo-Fastest-master\build\darknet\x64\backup3\yolo-fastest-1_final.weights C:\Yolo-Fastest-master\build\darknet\x64\data\img2\43.jpg
+pause

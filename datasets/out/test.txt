@@ -1,0 +1,90 @@
+/root/images/apple_100.jpg 30,39,81,85,0 94,38,141,88,0
+/root/images/apple_100_aug.jpg 29,31,80,77,0 93,30,140,80,0
+/root/images/apple_105_aug2.jpg 88,55,139,131,0 20,30,57,80,0
+/root/images/apple_109_aug.jpg 26,74,125,131,0
+/root/images/apple_112_aug2.jpg 81,73,130,122,0
+/root/images/apple_117.jpg 70,49,120,98,0
+/root/images/apple_121_aug.jpg 3,49,73,140,0
+/root/images/apple_128_aug.jpg 22,11,121,79,0
+/root/images/apple_20_aug2.jpg 16,3,152,155,0
+/root/images/apple_22.jpg 34,38,129,143,0
+/root/images/apple_31_aug.jpg 80,21,134,117,0 33,47,94,141,0
+/root/images/apple_38_aug.jpg 15,2,148,152,0
+/root/images/apple_39_aug2.jpg 29,57,77,141,0
+/root/images/apple_51_aug.jpg 31,26,127,124,0
+/root/images/apple_57_aug2.jpg 33,2,153,160,0
+/root/images/apple_62.jpg 34,6,119,157,0
+/root/images/apple_78_aug2.jpg 27,25,133,132,0
+/root/images/apple_85.jpg 27,1,133,150,0
+/root/images/apple_87_aug.jpg 24,9,151,160,0
+/root/images/apple_90.jpg 7,11,154,148,0
+/root/images/mix2_13.jpg 1,1,108,59,1
+/root/images/mix2_15_aug1.jpg 5,53,97,115,1
+/root/images/mix2_22_aug1.jpg 57,30,142,137,1
+/root/images/mix2_23.jpg 57,80,124,160,1
+/root/images/mix2_2_aug2.jpg 69,16,160,160,1
+/root/images/mix2_31_aug2.jpg 8,56,92,144,1
+/root/images/mix2_38.jpg 35,41,104,101,1
+/root/images/mix2_39.jpg 93,39,129,90,1
+/root/images/mix2_4.jpg 24,55,67,103,1
+/root/images/mix2_41_aug2.jpg 1,23,136,126,1
+/root/images/mix2_42_aug2.jpg 77,49,109,91,1
+/root/images/mix2_45_aug1.jpg 51,2,138,120,1
+/root/images/mix2_45_aug2.jpg 22,12,109,130,1
+/root/images/mix2_46.jpg 68,19,125,88,1
+/root/images/mix2_47_aug2.jpg 79,33,134,132,1
+/root/images/mix2_56.jpg 16,3,89,88,1
+/root/images/mix2_6_aug1.jpg 4,12,79,133,1 84,17,151,120,1
+/root/images/mix2_8.jpg 10,8,124,92,1
+/root/images/mix3_11.jpg 12,1,160,148,1
+/root/images/mix3_11_aug2.jpg 3,1,158,149,1
+/root/images/mix3_12.jpg 1,1,160,160,0
+/root/images/mix3_13.jpg 1,1,109,159,1
+/root/images/mix3_13_aug1.jpg 46,1,154,159,1
+/root/images/mix3_22_aug2.jpg 36,16,137,140,1
+/root/images/mix3_25_aug1.jpg 2,1,159,158,1
+/root/images/mix3_26.jpg 1,1,160,160,1
+/root/images/mix3_28.jpg 6,1,140,127,0
+/root/images/mix3_2_aug1.jpg 0,2,53,129,1 96,3,159,143,1
+/root/images/mix3_30.jpg 1,1,160,160,1
+/root/images/mix3_33.jpg 1,1,92,147,1
+/root/images/mix3_33_aug2.jpg 68,4,151,136,1
+/root/images/mix3_35_aug1.jpg 73,18,154,126,0
+/root/images/mix3_37_aug2.jpg 22,23,135,134,1
+/root/images/mix3_41.jpg 52,1,160,160,1
+/root/images/mix3_41_aug1.jpg 0,1,108,160,1
+/root/images/mix3_43_aug1.jpg 127,29,159,159,0 0,0,119,152,1
+/root/images/mix3_4_aug1.jpg 9,2,147,159,1
+/root/images/mix3_54_aug2.jpg 87,22,131,125,1
+/root/images/mix3_5_aug2.jpg 15,15,149,147,1
+/root/images/mix3_6.jpg 1,1,131,160,0
+/root/images/mix_10.jpg 20,44,130,160,0
+/root/images/mix_13.jpg 5,78,64,147,0 55,1,143,160,1
+/root/images/mix_19_aug2.jpg 55,98,80,126,0 88,87,122,144,1
+/root/images/mix_21.jpg 84,76,135,134,0
+/root/images/mix_22_aug.jpg 28,65,46,83,0 1,116,21,138,0 134,40,152,75,1 114,6,146,25,1
+/root/images/mix_24_aug2.jpg 68,68,96,103,0
+/root/images/mix_26_aug.jpg 25,28,67,77,1 70,29,101,54,1 72,33,144,116,1
+/root/images/mix_27_aug.jpg 11,59,68,121,0 85,35,132,91,0
+/root/images/mix_30.jpg 20,56,131,160,1
+/root/images/mix_35.jpg 24,51,68,76,1 73,80,126,119,1 121,39,150,68,1 69,53,92,79,0
+/root/images/mix_42_aug2.jpg 53,20,82,48,0 72,78,128,139,1
+/root/images/mix_43.jpg 26,35,84,104,1 75,24,147,96,1
+/root/images/mix_46.jpg 12,20,61,72,1 58,21,117,80,1 93,8,146,40,1
+/root/images/mix_48_aug.jpg 61,48,105,115,1
+/root/images/mix_48_aug2.jpg 52,28,120,113,1
+/root/images/mix_52_aug2.jpg 11,56,63,154,1 55,42,156,107,1
+/root/images/mix_56_aug2.jpg 16,74,90,133,1
+/root/images/mix_57_aug.jpg 79,47,112,82,0 98,73,134,132,1 53,75,102,111,1 28,54,76,84,1
+/root/images/mix_59.jpg 96,52,153,111,0 6,59,96,125,1
+/root/images/mix_60.jpg 109,21,160,105,1 101,98,146,147,0
+/root/images/mix_64.jpg 23,9,147,121,1
+/root/images/mix_66.jpg 16,61,147,160,1
+/root/images/mix_67_aug.jpg 37,60,91,102,1
+/root/images/mix_67_aug2.jpg 46,63,99,105,1
+/root/images/mix_72_aug.jpg 78,0,158,78,1
+/root/images/mix_82_aug.jpg 96,42,140,70,1 64,67,94,121,1 11,42,40,86,1
+/root/images/mix_9.jpg 36,7,138,106,0
+/root/images/mix_92_aug.jpg 38,49,141,145,1
+/root/images/mix_92_aug2.jpg 29,1,124,119,1
+/root/images/mix_9_aug2.jpg 18,10,148,145,0

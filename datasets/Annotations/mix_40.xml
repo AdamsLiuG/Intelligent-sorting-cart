@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images_ori2</folder>
+	<filename>mix_40.jpg</filename>
+	<path>F:\dataset\images_ori2\mix_40.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>160</width>
+		<height>160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>apple</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>6</xmin>
+			<ymin>26</ymin>
+			<xmax>134</xmax>
+			<ymax>160</ymax>
+		</bndbox>
+	</object>
+</annotation>
