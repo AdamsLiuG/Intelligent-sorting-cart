@@ -20,9 +20,9 @@
 ..\out\z_main.o: ..\src\z_global.h
 ..\out\z_main.o: ..\src\z_delay.h
 ..\out\z_main.o: ..\src\z_type.h
-..\out\z_main.o: ..\src\z_usart.h
+..\out\z_main.o: ..\src\usart.h
 ..\out\z_main.o: ..\src\z_timer.h
-..\out\z_main.o: ..\src\z_w25q64.h
+..\out\z_main.o: ..\src\w25q64.h
 ..\out\z_main.o: ..\src\z_main.h
 ..\out\z_main.o: ..\src\z_kinematics.h
 ..\out\z_main.o: ..\src\z_sensor.h

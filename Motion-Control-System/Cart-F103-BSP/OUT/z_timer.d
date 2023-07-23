@@ -19,7 +19,7 @@
 ..\out\z_timer.o: ..\src\z_gpio.h
 ..\out\z_timer.o: ..\src\stm32f10x_conf.h
 ..\out\z_timer.o: ..\src\z_global.h
-..\out\z_timer.o: ..\src\z_usart.h
+..\out\z_timer.o: ..\src\usart.h
 ..\out\z_timer.o: D:\software2\keil5\core\ARM\ARMCC\Bin\..\include\stdio.h
 ..\out\z_timer.o: D:\software2\keil5\core\ARM\ARMCC\Bin\..\include\string.h
 ..\out\z_timer.o: D:\software2\keil5\core\ARM\ARMCC\Bin\..\include\math.h

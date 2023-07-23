@@ -1,6 +1,6 @@
 ..\out\z_adc.o: ..\src\z_adc.c
 ..\out\z_adc.o: ..\src\z_adc.h
-..\out\z_adc.o: ..\src\z_main.h
+..\out\z_adc.o: ..\src\main.h
 ..\out\z_adc.o: ..\src\stm32f10x_conf.h
 ..\out\z_adc.o: ..\Libraries\inc\stm32f10x_adc.h
 ..\out\z_adc.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
@@ -17,5 +17,4 @@
 ..\out\z_adc.o: ..\Libraries\inc\stm32f10x_tim.h
 ..\out\z_adc.o: ..\Libraries\inc\stm32f10x_usart.h
 ..\out\z_adc.o: ..\Libraries\inc\misc.h
-..\out\z_adc.o: ..\src\z_kinematics.h
-..\out\z_adc.o: ..\src\z_type.h
+..\out\z_adc.o: ..\src\type.h

@@ -16,7 +16,7 @@
 ..\out\stm32f10x_it.o: ..\Libraries\inc\stm32f10x_tim.h
 ..\out\stm32f10x_it.o: ..\Libraries\inc\stm32f10x_usart.h
 ..\out\stm32f10x_it.o: ..\Libraries\inc\misc.h
-..\out\stm32f10x_it.o: ..\src\z_usart.h
-..\out\stm32f10x_it.o: ..\src\z_global.h
+..\out\stm32f10x_it.o: ..\src\usart.h
+..\out\stm32f10x_it.o: ..\src\global.h
 ..\out\stm32f10x_it.o: ..\src\stm32f10x_conf.h
-..\out\stm32f10x_it.o: ..\src\z_timer.h
+..\out\stm32f10x_it.o: ..\src\timer.h

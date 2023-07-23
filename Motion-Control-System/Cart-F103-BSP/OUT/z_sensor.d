@@ -2,7 +2,7 @@
 ..\out\z_sensor.o: D:\software2\keil5\core\ARM\ARMCC\Bin\..\include\stdio.h
 ..\out\z_sensor.o: D:\software2\keil5\core\ARM\ARMCC\Bin\..\include\string.h
 ..\out\z_sensor.o: ..\src\z_adc.h
-..\out\z_sensor.o: ..\src\z_main.h
+..\out\z_sensor.o: ..\src\main.h
 ..\out\z_sensor.o: ..\src\stm32f10x_conf.h
 ..\out\z_sensor.o: ..\Libraries\inc\stm32f10x_adc.h
 ..\out\z_sensor.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
@@ -23,8 +23,8 @@
 ..\out\z_sensor.o: ..\src\z_type.h
 ..\out\z_sensor.o: ..\src\z_global.h
 ..\out\z_sensor.o: ..\src\z_gpio.h
-..\out\z_sensor.o: ..\src\z_timer.h
-..\out\z_sensor.o: ..\src\z_usart.h
+..\out\z_sensor.o: ..\src\timer.h
+..\out\z_sensor.o: ..\src\usart.h
 ..\out\z_sensor.o: ..\src\z_delay.h
 ..\out\z_sensor.o: ..\src\z_sensor.h
 ..\out\z_sensor.o: ..\src\z_color.h

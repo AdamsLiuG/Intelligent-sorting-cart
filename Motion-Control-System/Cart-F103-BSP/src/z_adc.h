@@ -1,9 +1,8 @@
-
 #ifndef __ADC_H__
 #define __ADC_H__
 
-#include "z_main.h"
-#include "z_type.h"
+#include "main.h"
+#include "type.h"
 #include "stm32f10x_conf.h"
 
 #define ADC_NUM 1

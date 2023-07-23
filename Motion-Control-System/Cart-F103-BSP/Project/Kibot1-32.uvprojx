@@ -470,69 +470,59 @@
           <GroupName>src</GroupName>
           <Files>
             <File>
-              <FileName>z_main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\z_main.c</FilePath>
-            </File>
-            <File>
-              <FileName>z_delay.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\z_delay.c</FilePath>
-            </File>
-            <File>
-              <FileName>z_global.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\z_global.c</FilePath>
-            </File>
-            <File>
-              <FileName>z_gpio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\z_gpio.c</FilePath>
-            </File>
-            <File>
-              <FileName>z_ps2.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\z_ps2.c</FilePath>
-            </File>
-            <File>
-              <FileName>z_rcc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\z_rcc.c</FilePath>
-            </File>
-            <File>
-              <FileName>z_timer.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\z_timer.c</FilePath>
-            </File>
-            <File>
-              <FileName>z_usart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\z_usart.c</FilePath>
-            </File>
-            <File>
-              <FileName>z_w25q64.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\z_w25q64.c</FilePath>
-            </File>
-            <File>
-              <FileName>z_sensor.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\z_sensor.c</FilePath>
-            </File>
-            <File>
               <FileName>z_adc.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\z_adc.c</FilePath>
             </File>
             <File>
-              <FileName>z_color.c</FileName>
+              <FileName>w25q64.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\z_color.c</FilePath>
+              <FilePath>..\src\w25q64.c</FilePath>
             </File>
             <File>
-              <FileName>z_kinematics.c</FileName>
+              <FileName>usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\z_kinematics.c</FilePath>
+              <FilePath>..\src\usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>sensor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\sensor.c</FilePath>
+            </File>
+            <File>
+              <FileName>delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>global.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\global.c</FilePath>
+            </File>
+            <File>
+              <FileName>gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>rcc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\rcc.c</FilePath>
+            </File>
+            <File>
+              <FileName>pid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pid.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -23,8 +23,8 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f10x_it.h"
-#include "z_usart.h"
-#include "z_timer.h"
+#include "usart.h"
+#include "timer.h"
 
 /** @addtogroup STM32F10x_StdPeriph_Template
   * @{
